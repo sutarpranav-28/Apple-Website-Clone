@@ -1,0 +1,799 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/* header */
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+
+}
+.navbar{
+    
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    color: rgb(29, 29, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navbar ul {
+    color: rgb(29, 29, 31);
+    display: flex;
+    list-style:none;
+    font-size: 12px;
+    gap: 35px;
+    align-items: center;
+}
+
+.logo{
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 17px;
+    height: 25px;
+    width: 25px;
+    bottom: 1px;
+}
+
+/* section 1 : hero section */
+
+.hero{
+    background:#f5f5f7;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    overflow:hidden;
+
+    height:580px;
+    width: 100%;
+    background-image:url("images/hero_image.jpg");
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain;
+    background-size: cover;
+
+    cursor: pointer;
+}
+
+.hero-content{
+    text-align:center;
+
+    margin-top:45px;
+}
+
+.hero-content h1{
+    font-size:56px;
+    font-weight:600;
+    color:rgb(29, 29, 31);
+}   
+
+.hero-content p{
+    font-size:28px;
+    font-weight:400;
+    letter-spacing: -1px;
+
+    color:rgb(29, 29, 31);
+
+    margin-bottom:20px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+}
+
+.btn{
+    text-decoration:none;
+
+    padding:11px 21px;
+
+    border-radius:980px;
+
+    font-size:17px;
+}
+
+.btn-primary{
+    background:#0071e3;
+    color:white;
+}
+
+.btn-primary:hover{
+    background-color: #0077ed;
+}
+
+.btn-secondary{
+    border:1px solid #0071e3;
+    color:#0071e3;
+}
+
+.btn-secondary:hover{
+    background-color: #0077ed;
+    color: white;
+}
+
+/* section 2 : fathers day section */
+
+.fathersday{
+    height: 580px;
+    width: 100%;
+
+    background-image: url('images/Apple_fathers_day.jpg');
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain;
+    background-size: cover;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    cursor: pointer;
+
+    overflow: hidden;
+
+    margin-top: 12px;
+
+    cursor: pointer;
+
+}
+
+.father-content{
+    color: rgb(29, 29, 31);
+    text-align: center;
+
+    margin-top: 45px;
+
+}
+
+.father-text-primary{
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+
+.father-text-secondary{
+    font-size: 28px;
+    font-weight: 400px;
+    margin-top: 4px;
+    letter-spacing: -1px;
+}
+
+.father-btn{
+    font-size: 17px;
+    font-weight: 400px;
+    text-decoration: none;
+
+    border-radius: 980px;
+
+    padding-block-end : 11px;
+    padding-block-start : 11px;
+    padding-inline-end : 21px;
+    padding-inline-start : 21px;
+
+    background-color: rgb(0, 113, 227);
+    color: white;
+
+    position: relative;
+    top: 30px;
+
+}
+
+.father-btn:hover{
+    background-color: #0077ed;
+    color: white;
+}
+
+/* section 3 : apple for collage */
+
+.apple-for-collage{
+    height: 580px;
+    width: 100%;
+    background-image: url('images/Apple_for_collage.jpg');
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain;
+    background-size: cover;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    cursor: pointer;
+
+    overflow: hidden;
+
+    margin-top: 12px;
+
+    cursor: pointer;
+}
+
+.collage-content{
+    color: rgb(29, 29, 31);
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+.collage-text-primary{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    
+}
+
+.collage-text-secondary{
+    font-size: 28px;
+    font-weight: 400px;
+    margin-top: 4px;
+    letter-spacing: -1px;
+}
+
+.collage-btn{
+    font-size: 17px;
+    font-weight: 400px;
+    text-decoration: none;
+
+    border-radius: 980px;
+
+    padding-block-end : 11px;
+    padding-block-start : 11px;
+    padding-inline-end : 21px;
+    padding-inline-start : 21px;
+
+    background-color: rgb(0, 113, 227);
+    color: white;
+
+    position: relative;
+    top: 30px;
+
+}
+
+.father-btn:hover{
+    background-color: #0077ed;
+    color: white;
+}
+
+/* section 4 : shoping section */
+
+.shop-section{
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:12px;
+
+    padding:12px;
+
+    background:#fff;
+
+    position:relative;
+
+    cursor: pointer;
+}
+
+.shop-box{
+    flex:1;
+}
+
+.shop-box-content{
+    height:580px;
+
+    background-size:cover;
+    /* background-position: center bottom; */
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    position:relative;
+
+    padding-top:50px;
+}
+
+.shop-text-primary{
+    color: rgb(29, 29, 31);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.shop-text-primary img{
+    display:block;
+    margin:auto;
+}
+    
+.ipad-text-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+.shop-text-secondary{
+    color: rgb(29, 29, 31);
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.shop-btn{
+    display: flex;
+
+    gap: 14px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 12px;
+   
+}
+
+.shop-btn-btn{
+    text-decoration:none;
+
+    padding:8px 15px;
+
+    border-radius:980px;
+
+    font-size:14px;
+}
+
+.shop-btn-primary{
+    background:#0071e3;
+    color:white;
+}
+
+.shop-btn-primary:hover{
+    background-color: #0076DF;
+}
+.-shop-btn-primary:hover:active{
+    background-color: #006EDB;
+}
+
+.shop-btn-secondary{
+    border:1px solid #0071e3;
+    color:#0071e3;
+}
+
+.shop-btn-secondary:hover{
+    background-color: #0076DF;
+    color: white;
+}
+.shop-btn-secondary:active{
+    background-color: #006EDB;
+}
+
+/* section 5 : endless entertainment. */
+
+.entertainment{
+    padding:20px 0;
+    background-color: rgb(245, 245, 247);
+}
+
+.entertainment h2{
+    text-align:center;
+    font-size:48px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.movie-slider{
+    display:flex;
+
+    gap:10px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    padding:0 12px;
+}
+
+.movie-card{
+    position:relative;
+
+    min-width:900px;
+
+    height:500px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    flex-shrink:0;
+
+    cursor: pointer;
+}
+
+.movie-card::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+    height:200px;
+
+    background:linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.15) 30%,
+        rgba(0,0,0,0.55) 100%
+    );
+
+    z-index:1;
+}
+
+.movie-card img{
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.movie-overlay{
+    position:absolute;
+
+    bottom:40px;
+    left:40px;
+
+    display:flex;
+    align-items:center;
+
+    gap:20px;
+
+    z-index:2;
+
+    text-shadow:
+    0 2px 10px rgba(0,0,0,.8);
+}
+
+.stream-btn{
+    background:white;
+
+    color:black;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:12px 22px;
+
+    font-size:17px;
+
+    cursor:pointer;
+}
+
+.movie-info{
+    color:white;
+
+    font-size:20px;
+
+    text-shadow:
+        0 2px 8px rgba(0,0,0,.6);
+}
+
+.movie-info strong{
+    font-weight:700;
+}
+
+/* this is for small cards */
+
+.app-slider{
+    display:flex;
+
+    gap:12px;
+
+    overflow-x:auto;
+
+    margin-top:12px;
+
+    padding:0 12px;
+
+}
+
+.app-card{
+    position:relative;
+
+    min-width:320px;
+
+    height:180px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    flex-shrink:0;
+
+    cursor: pointer;
+}
+
+.app-card img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.app-card::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+    height:80px;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.35),
+        transparent
+    );
+
+    z-index:1;
+}
+
+.app-overlay{
+    position:absolute;
+
+    left:20px;
+    right:20px;
+    bottom:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:2;
+}
+
+.app-text{
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    text-shadow:
+        0 2px 8px rgba(0,0,0,.8);
+}
+
+.app-btn{
+    border:none;
+
+    background:white;
+
+    color:#1d1d1f;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    cursor:pointer;
+}
+
+.app-brand{
+position:absolute;
+
+top:18px;
+right:18px;
+
+color:white;
+
+font-size:20px;
+font-weight:600;
+
+z-index:3;
+
+display:flex;
+align-items:center;
+gap:4px;
+
+text-shadow:
+    0 2px 8px rgba(0,0,0,.5);
+
+}
+
+.app-brand i{
+font-size:20px;
+}
+
+
+/* Apple Legal Section */
+
+.legal-section{
+    background-color: rgb(245, 245, 247);
+    padding:20px 0 10px;
+}
+.legal-content{
+    max-width:980px;
+    margin:0 auto;
+    padding:0 22px;
+}
+.legal-content p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6e6e73;
+    margin-bottom:14px;
+}
+.legal-content a{
+    text-decoration: underline;
+    transition:color 0.2s ease;
+    color: rgba(0, 0, 0, 0.72);
+    cursor: pointer;
+}
+
+/* footer__section */
+
+
+.footer{
+
+background:#f5f5f7;
+
+padding:5px 0 30px;
+
+}
+
+.footer-links{
+max-width:980px;
+border-top:1px solid #d2d2d7;
+margin:0 auto;
+
+display:grid;
+
+grid-template-columns:
+repeat(5,1fr);
+
+gap:30px;
+
+
+}
+
+.footer-column{
+display:flex;
+
+flex-direction:column;
+
+
+}
+
+.footer-column h3{
+font-size:12px;
+
+
+font-weight:600;
+
+color:#1d1d1f;
+
+margin-top:20px;
+margin-bottom:10px;
+
+
+}
+
+.footer-column a{
+color:#424245;
+
+
+text-decoration:none;
+
+font-size:12px;
+font-weight: 400;
+
+margin-bottom:10px;
+
+
+}
+
+.footer-column a:hover{
+text-decoration:underline;
+}
+
+/* shop-more */
+
+.shop-more{
+    max-width:980px;
+
+    margin:20px auto;
+
+    padding-bottom:16px;
+
+    border-bottom:1px solid #d2d2d7;
+
+    color:#6e6e73;
+
+    font-size:12px;
+    font-weight: 400;
+
+    white-space:nowrap;
+}
+
+.shop-more a{
+    color:rgb(0, 102, 204);
+}
+
+.shop-more a:hover{
+    cursor: pointer;
+}
+
+.copyright-section{
+    max-width:980px;
+
+    margin:12px auto 0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    font-size:12px;
+
+    color:#6e6e73;
+}
+
+.copyright-center{
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+}
+
+.copyright-center a{
+    text-decoration:none;
+
+    color:#424245;
+}
+
+.copyright-center a:hover{
+    text-decoration:underline;
+}
+
+.copyright-center span{
+    color:#d2d2d7;
+}
+
+.copyright-right:hover{
+    text-decoration: underline;
+}
