@@ -44,9 +44,9 @@ The objective of this project was to:
 * Learn how modern landing pages are structured
 
 ## 📂 Project Structure
-
-├── index.html
-├── style.css
+```
+├── index2.html
+├── style2.css
 ├── images/
 │   ├── hero_image.jpg
 │   ├── MacBook_Air.jpg
@@ -57,7 +57,7 @@ The objective of this project was to:
 ├── smallcards
 ├── apple-like-fonts
 └── README.md
-
+```
 ## 🔮 Future Improvements
 
 * Add JavaScript-powered carousel functionality
@@ -83,7 +83,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/apple-inspired-homepage.git
+git clone https://github.com/sutarpranav-28e/apple-inspired-homepage.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -96,7 +96,7 @@ cd apple-inspired-homepage
 
 Since this project uses only HTML and CSS, no additional dependencies are required.
 
-Simply open `index.html` in your browser.
+Simply open `index2.html` in your browser.
 
 ### 4. Recommended Development Setup
 
@@ -104,7 +104,7 @@ For a better development experience:
 
 * Install Visual Studio Code
 * Install the Live Server extension
-* Right-click on `index.html`
+* Right-click on `index2.html`
 * Select **Open with Live Server**
 
 The website will automatically reload whenever changes are saved.
@@ -118,8 +118,8 @@ Example:
 ```text
 project-folder/
 │
-├── index.html
-├── style.css
+├── index2.html
+├── style2.css
 ├── README.md
 │
 └── images/
@@ -132,11 +132,9 @@ project-folder/
 
 ## 🌐 Browser Compatibility
 
-Tested on:
+Try to on:
 
-* Google Chrome
 * Microsoft Edge
-* Mozilla Firefox
 
 Best viewed on modern browsers with CSS Grid and Flexbox support.
 
