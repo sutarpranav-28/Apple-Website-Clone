@@ -45,8 +45,8 @@ The objective of this project was to:
 
 ## 📂 Project Structure
 ```
-├── index2.html
-├── style2.css
+├── index.html
+├── style.css
 ├── images/
 │   ├── hero_image.jpg
 │   ├── MacBook_Air.jpg
@@ -96,7 +96,7 @@ cd apple-inspired-homepage
 
 Since this project uses only HTML and CSS, no additional dependencies are required.
 
-Simply open `index2.html` in your browser.
+Simply open `index.html` in your browser.
 
 ### 4. Recommended Development Setup
 
@@ -104,7 +104,7 @@ For a better development experience:
 
 * Install Visual Studio Code
 * Install the Live Server extension
-* Right-click on `index2.html`
+* Right-click on `index.html`
 * Select **Open with Live Server**
 
 The website will automatically reload whenever changes are saved.
@@ -116,8 +116,8 @@ Make sure the `images` folder is present in the root directory and contains all 
 Example:
 
 ```text
-├── index2.html
-├── style2.css
+├── index.html
+├── style.css
 ├── images/
 │   ├── hero_image.jpg
 │   ├── MacBook_Air.jpg
