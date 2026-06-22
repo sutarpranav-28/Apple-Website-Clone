@@ -116,18 +116,18 @@ Make sure the `images` folder is present in the root directory and contains all 
 Example:
 
 ```text
-project-folder/
-│
 ├── index2.html
 ├── style2.css
-├── README.md
-│
-└── images/
-    ├── hero_image.jpg
-    ├── MacBook_Air.jpg
-    ├── ipad_air.jpg
-    ├── iphone_privacy.jpg
-    └── ...
+├── images/
+│   ├── hero_image.jpg
+│   ├── MacBook_Air.jpg
+│   ├── ipad_air.jpg
+│   ├── iphone_privacy.jpg
+│   └── ...
+├── card
+├── smallcards
+├── apple-like-fonts
+└── README.md
 ```
 
 ## 🌐 Browser Compatibility
